@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crm</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer type="module" src="main.js"></script>
+</head>
+
+<body>
+  <div class="site">
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="img/sprite.svg#crm_logo"></use>
+        </svg>
+        <input id="input__search" class="header__input" type="text" placeholder="Введите запрос">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="crm">
+      <div class="container">
+        <div class="crm__content">
+          <h1 class="crm__title">
+            Клиенты
+          </h1>
+          <div class="crm__table table">
+          </div>
+          <button  class="crm__btn">
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#add_client"></use>
+            </svg>
+            Добавить клиента
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  </div>
+</body>
+
+</html>
